@@ -15,6 +15,7 @@ const bot = new AoiClient({
     }
 });
 
+
 bot.status({
     name: "!ping | aoi.js",
     type: "PLAYING",
