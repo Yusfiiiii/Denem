@@ -22,8 +22,7 @@ bot.status({
     time: 12
 });
 
-const loader = bot.loader;
-loader.load(bot.cmd, "./commands/");
+bot.loadCommands("./commands/");
 
 console.log("Discord bot başlatılıyor...");
 
